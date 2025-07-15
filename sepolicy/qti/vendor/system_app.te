@@ -15,3 +15,7 @@ rw_dir_file(system_app, sysfs_vibrator)
 
 # Zram
 r_dir_file(system_app, sysfs_zram)
+
+# NrModeSwitcher
+hal_client_domain(system_app, hal_telephony)
+binder_call(system_app, rild)
