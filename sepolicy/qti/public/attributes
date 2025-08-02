@@ -1,5 +1,6 @@
 hal_attribute(lineage_oplus_als)
 vendor_hal_attribute(cameraMDM)
+vendor_hal_attribute(fingerprintpay)
 vendor_hal_attribute(oplus_cammidasservice)
 vendor_hal_attribute(oplus_charger)
 vendor_hal_attribute(oplus_commondcs)
